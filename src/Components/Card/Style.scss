@@ -1,0 +1,48 @@
+@import "../../Styles/Index.scss";
+
+.card {
+    max-width: 50vh;
+    overflow: hidden;
+    cursor: pointer;
+    overflow: hidden;
+
+    .image-section {
+        overflow: hidden;
+        height: 30vh;
+        margin-bottom: 10px;
+        border: 3px solid $primaryColor;
+        .loaded{
+            filter: blur(0);
+        }
+        img {
+            transition: all 0.4s;
+            filter: blur(100px);
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+            font-size: 19px;
+            font-weight: 400;
+        }
+
+        .buttons {
+            font-size: 21px;
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.linkedin-articles {
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .article {
+      width: calc(33.333% - 2rem);
+      text-align: center;
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      h3 {
+        margin-top: 1rem;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+.work {
+  .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      height: 80vh;
+      overflow: scroll;
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+  }
+}

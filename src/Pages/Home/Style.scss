@@ -1,0 +1,59 @@
+@import '../../Styles/Index.scss';
+
+.home {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh; // Ensure the container takes up at least the full viewport height
+  overflow: hidden; // Ensure that the content within .home does not overflow by default
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    flex-basis: 34rem;
+
+    h1 {
+      font-size: 4rem;
+      color: white;
+    }
+
+    h3 {
+      font-weight: 400;
+      font-size: 1.3rem;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .image-section {
+    border: 2px solid;
+    height: 49vh;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home {
+    flex-direction: column;
+    height: auto; // Adjust height to auto to accommodate content
+    overflow-y: auto; // Enable vertical scrolling when content overflows
+    .info-section {
+      padding: 2rem;
+      h1 {
+        font-size: 35px;
+      }
+    }
+    .image-section {
+      width: 85vw;
+      order: -1;
+    }
+  }
+}

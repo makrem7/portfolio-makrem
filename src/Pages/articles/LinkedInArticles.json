@@ -1,0 +1,42 @@
+[
+  {
+    "title": "The Importance of Testing in Software Development: A Regression Example in Dart",
+    "img": "../../Components/ArticleCard/linkedin_artcile.png",
+    "link": "https://www.linkedin.com/pulse/importance-testing-software-development-regression-example-ltifi-q8sbf"
+  },
+  {
+    "title": "MongoDB Security Best Practices",
+    "img": "../../Components/ArticleCard/linkedin_artcile.png",
+    "link": "https://www.linkedin.com/pulse/mongodb-safe-understanding-risks-solutions-makrem-ltifi-kyzef"
+  },
+  {
+    "title": "Hot Restart in Flutter: Not Quite JIT, Not Quite AOT",
+    "img": "/path-to-image/image1.jpg",
+    "link": "https://www.linkedin.com/pulse/hot-restart-flutter-quite-jit-aot-makrem-ltifi-3iowf"
+  },
+  {
+    "title": "Flutter's Three Trees",
+    "img": "/path-to-image/image1.jpg",
+    "link": "https://www.linkedin.com/pulse/flutters-three-trees-makrem-ltifi-zgnmf"
+  },
+  {
+    "title": "Handling Null Safety in Dart",
+    "img": "/path-to-image/image1.jpg",
+    "link": "https://www.linkedin.com/pulse/handling-null-safety-dart-makrem-ltifi-tgpcf"
+  },
+  {
+    "title": "Flutter: Boost Efficiency with MVVM and GetX",
+    "img": "/path-to-image/image1.jpg",
+    "link": "https://www.linkedin.com/pulse/flutter-boost-efficiency-mvvm-getx-makrem-ltifi-pkfmf"
+  },
+  {
+    "title": "Simplify Code and Minimize Errors with Enumerations",
+    "img": "/path-to-image/image1.jpg",
+    "link": "https://www.linkedin.com/pulse/simplify-code-minimize-errors-enumerations-makrem-ltifi-1hx6"
+  },
+  {
+    "title": "Variable Types in Dart",
+    "img": "/path-to-image/image1.jpg",
+    "link": "https://www.linkedin.com/pulse/variable-types-dart-makrem-ltifi-7hzzf"
+  }
+]

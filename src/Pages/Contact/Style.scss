@@ -1,0 +1,44 @@
+@import '../../Styles/Index.scss';
+
+.form {
+    h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+
+    .details {
+        >div:first-of-type {
+            div {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                font-size: 18px;
+            }
+        }
+
+        >div:nth-child(2) {
+            margin-top: 2rem;
+
+
+
+            div {
+                display: flex;
+                font-size: 25px;
+                margin-top: 5px;
+                gap: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px){
+    .form{
+        flex-direction: column;
+    }
+}
